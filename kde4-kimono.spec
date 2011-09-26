@@ -15,6 +15,7 @@ BuildRequires:	akonadi-devel
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	mono-csharp
 BuildRequires:	qyoto-devel >= %{version}
+BuildRequires:	smokekde-devel
 BuildRequires:	soprano-devel
 Requires:	qyoto >= %{version}
 Obsoletes:	kde4-kdebindings-kimono < 4.6.100
