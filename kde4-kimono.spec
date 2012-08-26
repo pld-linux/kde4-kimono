@@ -4,18 +4,19 @@
 Summary:	K Desktop Environment - C# Mono KDE4 bindings
 Summary(pl_PL.UTF8):	K Desktop Environment - Dowiązania C# Mono
 Name:		kde4-kimono
-Version:	4.8.0
+Version:	4.9.0
 Release:	1
 License:	GPL
 Group:		X11/Libraries
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	ad5d0e7b45a7b1900cfdeb969dc5d290
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+# Source0-md5:	5c061536814708522a7af1bd886fce7f
 URL:		http://www.kde.org/
 BuildRequires:	akonadi-devel
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	mono-csharp
 BuildRequires:	kde4-qyoto-devel >= %{version}
 BuildRequires:	kde4-smokekde-devel
+BuildRequires:	shared-desktop-ontologies-devel
 BuildRequires:	soprano-devel
 Requires:	kde4-qyoto >= %{version}
 Obsoletes:	kde4-kdebindings-kimono < 4.6.100
