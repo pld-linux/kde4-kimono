@@ -2,7 +2,7 @@
 %define		orgname		kimono
 
 Summary:	K Desktop Environment - C# Mono KDE4 bindings
-Summary(pl_PL.UTF8):	K Desktop Environment - Dowiązania C# Mono
+Summary(pl.UTF-8):	K Desktop Environment - Dowiązania C# Mono
 Name:		kde4-kimono
 Version:	4.9.1
 Release:	1
