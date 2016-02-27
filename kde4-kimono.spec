@@ -5,7 +5,7 @@ Summary:	K Desktop Environment - C# Mono KDE4 bindings
 Summary(pl.UTF-8):	K Desktop Environment - Dowiązania C# Mono
 Name:		kde4-kimono
 Version:	4.14.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Libraries
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
